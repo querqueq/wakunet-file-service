@@ -12,7 +12,7 @@ $capsule->addConnection(
     ,'host'      => 'localhost'
     ,'database'  => 'wakunet-file-service'
     ,'username'  => 'root'
-    ,'password'  => 'metakey4db'
+    ,'password'  => 'password'
     ,'charset'   => 'utf8'
     ,'collation' => 'utf8_general_ci'
     ,'prefix'    => ''
