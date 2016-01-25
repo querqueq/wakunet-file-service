@@ -43,7 +43,7 @@ class FileDescriptor extends Eloquent {
     }
 
     public function download() {
-        header("Content-Type: $this->file_type");
+        header("Content-Type: application/octet-stream"); //$this->file_type");
         if($this->isPublic()) {
             header('Pragma: public');
         } else {
